@@ -1,0 +1,7 @@
+#include "add_two_numbs.h"
+
+#test add_two_numbs_test
+  fail_unless(add_two_numbs(3, 2) == 5, "two pos");
+  fail_unless(add_two_numbs(-3, 2) == -1, "first neg");
+  fail_unless(add_two_numbs(-3 , -2) == -5, "two neg");
+  fail_unless(add_two_numbs(3, -2) == 1, "second neg");

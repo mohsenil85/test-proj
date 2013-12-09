@@ -1,0 +1,4 @@
+*.o
+add_two_numbs
+add_two_numbs_test
+add_two_numbs_test.c
